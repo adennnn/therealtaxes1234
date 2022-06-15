@@ -1,0 +1,20 @@
+h1::before,
+h1::after {
+    content:"";
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+h1::before{
+    background: teal;
+    animation: typewriter 1s ease;
+}
+
+@keyframes typewriter{
+    to{
+        left:100%
+    }
+}
